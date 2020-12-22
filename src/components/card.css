@@ -1,0 +1,56 @@
+.card-outer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 25px;
+    /* padding: px; */
+    color: white;
+    background-color: rgba(red, green, blue, 0);
+}
+.card {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vs {
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: x-large;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 50%;
+}
+.more-icon {
+    color: white;
+    align-self: flex-end;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.details-show {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    align-self: flex-start;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    font-size: x-large;
+}
+
+.details-hide {
+    display: none;
+}
+
